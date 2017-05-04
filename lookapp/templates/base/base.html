@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link  href="{% static 'css/design.css' %}" rel="stylesheet" type="text/css">
+	<title>{% block title %} Registro {% endblock %}</title> 
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+<body>
+	<div class="centerText" id="yellowSnapDiv">
+            
+                <img src="{% static 'css/logo.png' %}" id="logoIn">
+            
+            </div>
+            <div class="centerText" id="redSnapDiv">
+
+               <button>Iniciar Sesión</button>
+           
+            </div>
+            <div class="centerText" id="blueSnapDiv">
+
+               <button>Registrarme</button>
+           
+            </div>
+</body>
+</html>
