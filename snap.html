@@ -1,0 +1,17 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Snap</title>
+        <meta charset="utf-8">
+        <link href="{% static 'css/design.css' %}" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    </head>
+    <body>
+        <div class="buttonArea">
+            <button class="sideButton"><img src="{% static 'css/settings.png' %}"></button>
+            <button id="takePic"></button>
+            <button class="sideButton"><img src="{% static 'css/FlashOn.png' %}"></button>
+        </div>
+    </body>
+</html>
